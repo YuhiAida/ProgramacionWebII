@@ -1,0 +1,267 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 3px;
+}
+p{
+  padding-left: 5px;
+}
+body{
+  background-image: url(img/background.png);
+}
+
+/*Index*/
+#logo{
+  width: 220px;
+}
+#home-logo{
+  padding: 0px 0px 0px 0px;
+}
+
+/*******---FOOTER/CONTACTO---*******/
+#pre-footer{
+    display: flex;
+	background-color: #70CAC1;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 3% 0;
+  color: white;
+}
+.map-info{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 6px;
+}
+#submit{
+	background-color: #E79462;
+	border:0px;
+	width: 100%;
+	height: 40px;
+    padding-top: 0px;
+}
+.contacto-tittle{
+	padding-left: 5px;
+}
+.contacto-form{
+ 	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    color:black;
+}
+.contacto-form-input {
+  margin: 0.5em 0;
+  border: 0px;
+  width: 100%;
+  padding: 0.6em 0;
+  height: 20px;
+  color:black;
+  }
+ .contacto-form-column{
+ 	padding: 0 0 8px 0px;
+  color: white;
+ }
+ .contacto-form-checkbox{
+ 	height: 20px;
+ 	width: 20px;
+ 	border-radius: 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+ }
+ #comments{
+ 	width: 100%;
+ 	height: 120px;
+
+ }
+ .contacto-button{
+  	color: white;
+  	font-size: 18px;
+  }
+.footer-logo{
+	width: 33.3333333333%;
+}
+.contacto-redes{
+	width: 33.3333333333%;
+}
+.contacto-redes a{
+	height: 100%;
+	background-repeat: no-repeat;
+	padding: 0 5px 0 5px;
+}
+#contacto-redes a img{
+	padding: 0 0 0 15px;
+}
+.footer-container{
+	display: -webkit-flex;
+    display: flex;
+    align-items: stretch;
+	background-color: rgba(100, 165, 119, 0.3);
+	width: 100%;
+	height: 100px;
+}
+.footer-container div{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+#redes-bajo-mapa{
+	display: flex;
+	justify-content: center;
+
+}
+div .footer-texto{
+	text-align: center;
+    width: 33.3333333333%;
+	align-items: flex-end;
+	padding-bottom: 0px;
+	margin-bottom: 15px;
+    font-size: 0.9em;
+}
+/*******---FIN FOOTER---*******/
+
+
+
+
+
+
+
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+/*home.php*/
+.home{
+  background-size: cover;
+  background-image: url(img/abasto1.jpg);
+  font-size: 1.2em;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  height: 1500px;
+}
+
+
+
+
+
+
+
+
+/*******************GALERIA****************/
+
+.thumbnail >img{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+h4{
+  margin: 0;
+  text-align: justify;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+@media (min-width: 1200px)
+bootstrap.css:1602
+.container {
+    width: 1170px;
+}
+@media (min-width: 992px)
+bootstrap.css:1597
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+bootstrap.css:1592
+.container {
+    width: 750px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-xs-16 col-md-3{
+  display: flex;
+}
+
+
+
+
+/*catList*/
+
+.catList{
+  background-color: grey;
+  width: 75%;
+  color: white;
+}
+
+.letraNegra{
+  color: black;
+}
+
+
+
+/*Login*/
+
+.login{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+/****************/
+
+
+
+.thumbnail{
+  width: 200px;
+}
+
+
+th{
+  padding: 5px;
+}
+
+.datosUser ul li button a{
+  color: black;
+}
+.datosUser ul li button a:hover {
+    background-color: #04B4AE;
+}
+
+.datosUser{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
